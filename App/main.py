@@ -3,11 +3,12 @@ from get_label_ids import get_label_ids
 from process_movements import process_movements
 from remove_labels import remove_label
 import add_a_note
+from credentials import cryptio_api_key
 
 base_url = "https://app-api.cryptio.co/api"
 headers = {
     "content-type": "application/json",
-    "cryptio-api-key": "2e737658-575d-4b42-8625-616c5f115cb5"
+    "cryptio-api-key": cryptio_api_key
 }
 
 def get_confirmation(prompt, attempts):

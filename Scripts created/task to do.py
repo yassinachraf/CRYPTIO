@@ -44,7 +44,7 @@ for movement in data:
     if total_in == total_out:
         label_id = "845eb3d0-2f73-4848-93fe-2f90efbc4d43"  # Label "ignore"
     else:
-        label_id = "18f3bc7a-2165-4cb3-8f4d-6c21fd9ea322"  # Label "revenue"
+        label_id = "1e7c5038-52f6-452b-9d40-cac8e572920a"  # Label "revenue"
     
     if label_id not in labels_to_apply:
         labels_to_apply[label_id] = []
